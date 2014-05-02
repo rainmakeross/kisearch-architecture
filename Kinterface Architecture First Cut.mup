@@ -1,0 +1,252 @@
+{
+  "title": "Kinterface Architecture First Cut",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "11": {
+      "title": "Front-end App Framework",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "3D.Js",
+          "id": 29,
+          "ideas": {
+            "1": {
+              "title": "Very powerful visualization library designed for easy 3D JS development.",
+              "id": 31
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        },
+        "2": {
+          "title": "Angular.Js",
+          "id": 30,
+          "ideas": {
+            "1": {
+              "title": "Google support and past experience makes it ideal.",
+              "id": 32
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        }
+      }
+    },
+    "8.5": {
+      "title": "Search Engine Structure",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "ElasticSearch",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "Designed for high scalability... has all required functionality out of the box. highly extensible through plugins and scripting.",
+              "id": 24
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        },
+        "2": {
+          "title": "Lucene/Solr",
+          "id": 22,
+          "ideas": {
+            "1": {
+              "title": "Too much development required to get it operational. Designed for slow enterprise use... scalability problems.",
+              "id": 23
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#993300"
+            }
+          }
+        }
+      }
+    },
+    "9.75": {
+      "title": "Web Crawler",
+      "id": 6,
+      "ideas": {
+        "1": {
+          "title": "Akka",
+          "id": 25,
+          "ideas": {
+            "1": {
+              "title": "Actor Model is very powerful and easy way for concurrent operation.",
+              "id": 27
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        },
+        "2": {
+          "title": "crawler4j",
+          "id": 26,
+          "ideas": {
+            "1": {
+              "title": "Ready made crawler developed in Java. It can be incorporated into Akka very easily.",
+              "id": 28
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        }
+      }
+    },
+    "-10": {
+      "title": "Full Stack Framework",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Play2",
+          "id": 7,
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Full Stack Framework with Scala support.",
+              "id": 15
+            }
+          }
+        },
+        "2": {
+          "title": "Netty",
+          "id": 8,
+          "attr": {
+            "style": {
+              "background": "#993300"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Only API based... too much development required.",
+              "id": 14
+            }
+          }
+        },
+        "3": {
+          "title": "Vert.X",
+          "id": 9,
+          "attr": {
+            "style": {
+              "background": "#993300"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Only API based... too much development required.",
+              "id": 17,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "Spring MVC",
+          "id": 10,
+          "attr": {
+            "style": {
+              "background": "#993300"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "High availability not in-built.",
+              "id": 18
+            }
+          }
+        }
+      }
+    },
+    "-5": {
+      "title": "Data Structure",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "MongoDB",
+          "id": 12,
+          "ideas": {
+            "1": {
+              "title": "Document store where derive search results from.",
+              "id": 19
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        },
+        "2": {
+          "title": "MariaDB",
+          "id": 13,
+          "ideas": {
+            "1": {
+              "title": "Relational information such as user accounts stored. NoSQL passthrough SQL can be used if needed.",
+              "id": 20
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#993300"
+            }
+          }
+        },
+        "1.5": {
+          "title": "Spring Integration",
+          "id": 33,
+          "ideas": {
+            "1": {
+              "title": "Spring integration allow easy introduction of datastores and works very well with play framework.",
+              "id": 34
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        },
+        "1.75": {
+          "title": "Hibernate",
+          "id": 35,
+          "ideas": {
+            "1": {
+              "title": "Since 4.0 Hibernate supports NoSQL databases including MongoDB",
+              "id": 36
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        }
+      }
+    }
+  }
+}
